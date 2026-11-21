@@ -1,0 +1,39 @@
+name: Update contribution calendar
+
+on:
+  schedule:
+    - cron: "23 3,15 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/contributions.yml
+
+concurrency:
+  group: contribution-calendar
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Generate light and dark contribution animations
+        uses: Platane/snk/svg-only@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3.5.0
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/contributions-light.svg?palette=github-light&color_snake=%234338ca&color_dots=%23dedff3,%23c7d2fe,%23a5b4fc,%23818cf8,%234f46e5
+            dist/contributions-dark.svg?palette=github-dark&color_snake=%23c4b5fd&color_dots=%23282c47,%234338ca,%236366f1,%23818cf8,%23a5b4fc
+      - name: Publish generated SVGs to the output branch
+        uses: crazy-max/ghaction-github-pages@df5cc2bfa78282ded844b354faee141f06b41865 # v4
+        with:
+          target_branch: output
+          build_dir: dist
+          commit_message: Update contribution calendar
+          jekyll: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
