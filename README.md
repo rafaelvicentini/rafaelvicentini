@@ -24,7 +24,7 @@ Minha formação é em Ciência da Computação. Meu foco atual é **Engenharia 
   </picture>
 </div>
 
-[![Calendário animado de contribuições em 21/11/2026](./assets/contributions.svg)](https://github.com/rafaelvicentini#contribution-activity)
+[![Calendário animado de contribuições em 21/11/2026](./assets/contributions.svg)](https://github.com/rafaelvicentini#js-contribution-activity)
 
 <sub>Calendário registrado em 21/11/2026. Os cartões acima exibem dados do GitHub.</sub>
 
