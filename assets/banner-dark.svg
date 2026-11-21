@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="240" viewBox="0 0 900 240" role="img" aria-labelledby="title">
+  <title id="title">Rafael Maria Iamin · AI Engineering</title>
+  <rect width="900" height="240" rx="24" fill="#131528"/>
+  <path d="M620 0v240M680 0v240M740 0v240M800 0v240M860 0v240M600 60h300M600 120h300M600 180h300" stroke="#33385c" opacity=".65"/>
+  <path d="M644 167l63-64 54 30 74-72" fill="none" stroke="#a5b4fc" stroke-width="3"/>
+  <g fill="#a5b4fc"><circle cx="644" cy="167" r="6"/><circle cx="707" cy="103" r="6"/><circle cx="761" cy="133" r="6"/><circle cx="835" cy="61" r="6"/></g>
+  <g font-family="system-ui, sans-serif">
+    <text x="48" y="77" fill="#a5b4fc" font-size="22" font-weight="700" letter-spacing="2">AI ENGINEERING</text>
+    <text x="48" y="143" fill="#f5f3ff" font-size="51" font-weight="750">Rafael Maria Iamin</text>
+    <text x="50" y="184" fill="#b8bdd7" font-size="23">Python · Desenvolvimento de software</text>
+  </g>
+</svg>
