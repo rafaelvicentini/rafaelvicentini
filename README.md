@@ -24,9 +24,12 @@ Minha formação é em Ciência da Computação. Meu foco atual é **Engenharia 
   </picture>
 </div>
 
-[![Calendário animado de contribuições em 21/11/2026](./assets/contributions.svg)](https://github.com/rafaelvicentini#js-contribution-activity)
-
-<sub>Calendário registrado em 21/11/2026. Os cartões acima exibem dados do GitHub.</sub>
+<a href="https://github.com/rafaelvicentini#js-contribution-activity">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/rafaelvicentini/rafaelvicentini/output/contributions-dark.svg">
+    <img width="100%" src="https://raw.githubusercontent.com/rafaelvicentini/rafaelvicentini/output/contributions-light.svg" alt="Calendário animado das contribuições de rafaelvicentini no GitHub">
+  </picture>
+</a>
 
 ## Projeto em destaque
 
